@@ -14,7 +14,7 @@ class Squire extends Character implements SquireStructure {
   }
 
   communicate() {
-    return `${super.communicate()}`;
+    return `${super.communicate()}Soy un loser`;
   }
 }
 
