@@ -6,7 +6,7 @@ class Advisor extends Character implements AdvisorStructure {
     name: string,
     family: string,
     age: number,
-    public whoIsAdvising: string
+    public whoIsAdvising: Character
   ) {
     super(name, family, age);
   }
