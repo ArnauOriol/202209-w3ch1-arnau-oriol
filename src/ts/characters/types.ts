@@ -4,6 +4,8 @@ interface CharacterStructure {
   age: number;
   isAlive: boolean;
   show: string;
+  communicate: () => string;
+  die: () => void;
 }
 
 export default CharacterStructure;
