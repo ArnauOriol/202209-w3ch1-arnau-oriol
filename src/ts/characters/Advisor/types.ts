@@ -1,5 +1,7 @@
+import Character from "../Character";
+
 interface AdvisorStructure {
-  whoIsAdvising: string;
+  whoIsAdvising: Character;
 }
 
 export default AdvisorStructure;
