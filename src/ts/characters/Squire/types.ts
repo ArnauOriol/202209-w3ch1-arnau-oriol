@@ -1,5 +1,8 @@
+import Fighter from "../Fighter/Fighter";
+
 interface SquireStructure {
-  whoIsServing: string;
+  whoIsServing: Fighter;
+  pelotismLevel: number;
 }
 
 export default SquireStructure;
